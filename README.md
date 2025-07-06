@@ -4,7 +4,7 @@
 **Business Intelligence Case Study**  
 **Time Period Analyzed:** 2009 – 2012  
 **Region Focus:** Abuja Division, Nigeria  
-**Tool Used:** SQL Server Management Studio (SSMS 21), StackEdit (For markdown)
+**Tool Used:** Excel for previewof dataset, SQL Server Management Studio (SSMS 21), Notepad++ for entry and StackEdit (For markdown editing).
 
 ---
 
@@ -84,7 +84,7 @@ WHERE
 | NULL                           |
 
 ⚠️ **Insight:**  
-There were **no appliance sales** recorded for Ontario — either due to lack of demand, missing data, or supply chain issues.
+There were **no appliance sales** recorded for Ontario — either due to lack of demand, missing data or supply chain issues.
 
 ---
 
@@ -110,7 +110,7 @@ ORDER BY Total_Sales ASC;
 | Rick Huthwaite       | ₦415.82    |
 | Mark Hamilton        | ₦450.99    |
 
-Checked their product habits to make informed recommendations.
+Checked their buying habits to make informed recommendations.
 
 ```sql
 SELECT
@@ -215,13 +215,115 @@ GROUP BY
 ORDER BY 
     Customer_Name, Total_Spent DESC;
 ```
+| Customer_Name       | Product_Category   | Product_Sub_Category           |   Times_Purchased |   Total_Spent |
+|:----------------    |:-------------------|:-------------------------------|------------------|---------------:|
+| Alejandro Grove     | Office Supplies    | Binders and Binder Accessories | 2                | 41199.12       |
+| Alejandro Grove     | Furniture          | Tables                         | 2                | 17638.56       |
+| Alejandro Grove     | Furniture          | Chairs & Chairmats             | 2                | 13552.24       |
+| Alejandro Grove     | Office Supplies    | Appliances                     | 1                | 9081.98        |
+| Alejandro Grove     | Office Supplies    | Envelopes                      | 1                | 806.08         |
+| Alejandro Grove     | Furniture          | Office Furnishings             | 2                | 675.11         |
+| Alejandro Grove     | Office Supplies    | Paper                          | 1                | 306.30         |
+| Alejandro Grove     | Office Supplies    | Pens & Art Supplies            | 1                | 163.98         |
+| Alejandro Grove     | Office Supplies    | Storage & Organization         | 1                | 70.02          |
+| Alejandro Grove     | Office Supplies    | Labels                         | 1                | 68.54          |
+| Darren Budd         | Technology         | Copiers and Fax                | 1                | 23949.51       |
+| Darren Budd         | Furniture          | Office Furnishings             | 16               | 20155.74       |
+| Darren Budd         | Furniture          | Chairs & Chairmats             | 8                | 14176.35       |
+| Darren Budd         | Technology         | Office Machines                | 1                | 7235.83        |
+| Darren Budd         | Furniture          | Bookcases                      | 4                | 6650.21        |
+| Darren Budd         | Technology         | Telephones and Communication   | 2                | 4028.75        |
+| Darren Budd         | Technology         | Computer Peripherals           | 5                | 2996.04        |
+| Darren Budd         | Furniture          | Tables                         | 4                | 2384.91        |
+| Deborah Brumfield   | Technology         | Copiers and Fax                | 1                | 28664.52       |
+| Deborah Brumfield   | Technology         | Office Machines                | 1                | 25312.00       |
+| Deborah Brumfield   | Furniture          | Chairs & Chairmats             | 3                | 12486.36       |
+| Deborah Brumfield   | Technology         | Computer Peripherals           | 2                | 12420.86       |
+| Deborah Brumfield   | Technology         | Telephones and Communication   | 4                | 10398.42       |
+| Deborah Brumfield   | Office Supplies    | Storage & Organization         | 3                | 6936.89        |
+| Deborah Brumfield   | Furniture          | Office Furnishings             | 1                | 323.26         |
+| Deborah Brumfield   | Office Supplies    | Scissors, Rulers and Trimmers  | 1                | 257.34         |
+| Deborah Brumfield   | Office Supplies    | Pens & Art Supplies            | 1                | 238.77         |
+| Deborah Brumfield   | Office Supplies    | Labels                         | 1                | 175.76         |
+| Deborah Brumfield   | Office Supplies    | Appliances                     | 1                | 128.97         |
+| Deborah Brumfield   | Office Supplies    | Binders and Binder Accessories | 1                | 89.99          |
+| Emily Phan          | Technology         | Office Machines                | 2                | 103652.49      |
+| Emily Phan          | Technology         | Telephones and Communication   | 2                | 6829.48        |
+| Emily Phan          | Furniture          | Bookcases                      | 1                | 4011.65        |
+| Emily Phan          | Office Supplies    | Binders and Binder Accessories | 2                | 1444.66        |
+| Emily Phan          | Office Supplies    | Storage & Organization         | 1                | 487.70         |
+| Emily Phan          | Office Supplies    | Appliances                     | 1                | 362.17         |
+| Emily Phan          | Office Supplies    | Pens & Art Supplies            | 1                | 336.29         |
+| Deborah Brumfield   | Technology         | Copiers and Fax                | 1                | 28664.52       |
+| Deborah Brumfield   | Technology         | Office Machines                | 1                | 25312.00       |
+| Deborah Brumfield   | Furniture          | Chairs & Chairmats             | 3                | 12486.36       |
+| Deborah Brumfield   | Technology         | Computer Peripherals           | 2                | 12420.86       |
+| Deborah Brumfield   | Technology         | Telephones and Communication   | 4                | 10398.42       |
+| Deborah Brumfield   | Office Supplies    | Storage & Organization         | 3                | 6936.89        |
+| Deborah Brumfield   | Furniture          | Office Furnishings             | 1                | 323.26         |
+| Deborah Brumfield   | Office Supplies    | Scissors, Rulers and Trimmers  | 1                | 257.34         |
+| Deborah Brumfield   | Office Supplies    | Pens & Art Supplies            | 1                | 238.77         |
+| Deborah Brumfield   | Office Supplies    | Labels                         | 1                | 175.76         |
+| Deborah Brumfield   | Office Supplies    | Appliances                     | 1                | 128.97         |
+| Deborah Brumfield   | Office Supplies    | Binders and Binder Accessories | 1                | 89.99          |
+| Emily Phan          | Technology         | Office Machines                | 2                | 103652.49      |
+| Emily Phan          | Technology         | Telephones and Communication   | 2                | 6829.48        |
+| Emily Phan          | Furniture          | Bookcases                      | 1                | 4011.65        |
+| Emily Phan          | Office Supplies    | Binders and Binder Accessories | 2                | 1444.66        |
+| Emily Phan          | Office Supplies    | Storage & Organization         | 1                | 487.70         |
+| Emily Phan          | Office Supplies    | Appliances                     | 1                | 362.17         |
+| Emily Phan          | Office Supplies    | Pens & Art Supplies            | 1                | 336.29         |
+| Grant Carroll       | Office Supplies    | Binders and Binder Accessories | 4                | 45025.21       |
+| Grant Carroll       | Furniture          | Chairs & Chairmats             | 2                | 16483.80       |
+| Grant Carroll       | Furniture          | Bookcases                      | 2                | 13035.29       |
+| Grant Carroll       | Technology         | Computer Peripherals           | 4                | 5477.22        |
+| Grant Carroll       | Office Supplies    | Appliances                     | 1                | 3548.67        |
+| Grant Carroll       | Technology         | Telephones and Communication   | 3                | 2275.66        |
+| Grant Carroll       | Office Supplies    | Paper                          | 5                | 1077.94        |
+| Grant Carroll       | Office Supplies    | Pens & Art Supplies            | 3                | 537.83         |
+| Grant Carroll       | Office Supplies    | Storage & Organization         | 1                | 460.68         |
+| Grant Carroll       | Furniture          | Office Furnishings             | 1                | 307.76         |
+| Grant Carroll       | Office Supplies    | Labels                         | 1                | 186.94         |
+| John Lucas          | Furniture          | Tables                         | 2                | 26016.61       |
+| John Lucas          | Office Supplies    | Storage & Organization         | 3                | 19846.88       |
+| John Lucas          | Furniture          | Chairs & Chairmats             | 1                | 17560.95       |
+| John Lucas          | Technology         | Telephones and Communication   | 4                | 9224.94        |
+| John Lucas          | Office Supplies    | Appliances                     | 1                | 3725.53        |
+| John Lucas          | Office Supplies    | Paper                          | 4                | 2233.54        |
+| John Lucas          | Technology         | Computer Peripherals           | 1                | 561.92         |
+| John Lucas          | Furniture          | Office Furnishings             | 1                | 512.78         |
+| John Lucas          | Office Supplies    | Pens & Art Supplies            | 1                | 13.04          |
+| Roy Skaria          | Furniture          | Bookcases                      | 4                | 38092.34       |
+| Roy Skaria          | Technology         | Copiers and Fax                | 2                | 27222.45       |
+| Roy Skaria          | Furniture          | Tables                         | 1                | 11036.16       |
+| Roy Skaria          | Office Supplies    | Storage & Organization         | 1                | 7156.56        |
+| Roy Skaria          | Office Supplies    | Binders and Binder Accessories | 3                | 3029.47        |
+| Roy Skaria          | Technology         | Computer Peripherals           | 2                | 2607.95        |
+| Roy Skaria          | Furniture          | Office Furnishings             | 3                | 1048.74        |
+| Roy Skaria          | Office Supplies    | Appliances                     | 1                | 724.13         |
+| Roy Skaria          | Office Supplies    | Paper                          | 3                | 698.60         |
+| Roy Skaria          | Technology         | Telephones and Communication   | 2                | 518.99         |
+| Roy Skaria          | Office Supplies    | Pens & Art Supplies            | 4                | 406.76         |
+| Sylvia Foulston     | Furniture          | Chairs & Chairmats             | 6                | 33206.11       |
+| Sylvia Foulston     | Technology         | Office Machines                | 1                | 22079.47       |
+| Sylvia Foulston     | Furniture          | Tables                         | 2                | 10166.52       |
+| Sylvia Foulston     | Technology         | Telephones and Communication   | 3                | 7499.51        |
+| Sylvia Foulston     | Office Supplies    | Binders and Binder Accessories | 3                | 5301.01        |
+| Sylvia Foulston     | Office Supplies    | Appliances                     | 3                | 4937.98        |
+| Sylvia Foulston     | Furniture          | Bookcases                      | 1                | 4462.23        |
+| Sylvia Foulston     | Office Supplies    | Envelopes                      | 1                | 683.46         |
+| Sylvia Foulston     | Furniture          | Office Furnishings             | 1                | 338.52         |
+| Sylvia Foulston     | Technology         | Computer Peripherals           | 1                | 90.06          |
+| Sylvia Foulston     | Office Supplies    | Rubber Bands                   | 1                | 78.49          |
+| Sylvia Foulston     | Office Supplies    | Labels                         | 1                | 32.40          |
+
 
 ✅ **Insight:**  
 The most valuable customers purchase a wide range of products, predominantly in **Technology**, **Furniture**, and **Office Supplies**. Tailored offers focusing on their preferred categories could further boost sales.
 
 ---
 
-### 🔹 7. Who Are the Most Valuable Small Business Customers?
+### 🔹 7. Who is the Most Valuable Small Business Customer?
 
 ```sql
 SELECT TOP 10 
@@ -296,7 +398,7 @@ ORDER BY
 Emily Phan is the highest profit-generating consumer, highlighting the importance of targeted retention and upselling strategies.
 
 
-### 🔹  Which customer returned items, and what segment do they belong to?
+### 🔹  Which customer returned items and what segment do they belong to?
 
 ```sql
 SELECT DISTINCT 
