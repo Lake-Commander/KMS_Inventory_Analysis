@@ -72,15 +72,14 @@ Special thanks to **Digital Skills Africa** and **Incubator Hub** for providing 
 
 ## 📂 Project Structure
 
+```
 KMS-Inventory-Analysis/
 │
-├── /datasets/ ← Contains the data used for analysis
-├── README.md ← Overview and summary
-├── KMS_Case_Study.sql ← All SQL scripts used in the analysis
-├── results.md ← Detailed breakdowns and findings
-
-
-
+├── /datasets/              ← Contains the data used for analysis
+├── README.md               ← Overview and summary
+├── KMS_Case_Study.sql      ← All SQL scripts used in the analysis
+├── results.md              ← Detailed breakdowns and findings
+```
 
 ---
 
