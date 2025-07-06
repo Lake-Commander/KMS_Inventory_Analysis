@@ -16,7 +16,7 @@
 
 ## 🎯 Project Highlights
 
-Kultra Mega Stores (KMS) aims to better understand its historical sales data and optimize its operations, customer targeting, and shipping strategies. This project covers:
+Kultra Mega Stores (KMS) aims to better understand its historical sales data and optimize its operations, customer targeting and shipping strategies. This project covers:
 
 - Revenue breakdown by category, region and customer
 - High- and low-performing customers and products
