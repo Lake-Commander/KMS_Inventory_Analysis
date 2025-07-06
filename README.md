@@ -8,7 +8,7 @@
 ## 🛠️ Tools Used
 
 - **SQL Server Management Studio (SSMS 21)** – for querying and analyzing data  
-- **Microsoft Excel / Power Query** – for cleaning, exploration, and visualization  
+- **Microsoft Excel** – for preview  
 - **Notepad++** – for lightweight SQL script editing  
 - **StackEdit** – for composing and previewing rich Markdown reports  
 
@@ -18,7 +18,7 @@
 
 Kultra Mega Stores (KMS) aims to better understand its historical sales data and optimize its operations, customer targeting, and shipping strategies. This project covers:
 
-- Revenue breakdown by category, region, and customer
+- Revenue breakdown by category, region and customer
 - High- and low-performing customers and products
 - Shipping cost patterns and order priority logic
 - Actionable business insights for decision-making
@@ -28,7 +28,7 @@ Kultra Mega Stores (KMS) aims to better understand its historical sales data and
 ## 📈 Analytical Approach
 
 - **SQL Queries:** Performed aggregations and filtering with `GROUP BY`, `WHERE`, and subqueries  
-- **Data Segmentation:** Based on region, category, customer segment, and shipping mode  
+- **Data Segmentation:** Based on region, category, customer segment and shipping mode  
 - **Performance Metrics:** Top 10 customers, order frequency, shipping cost averages  
 - **Comparative Insights:** Sales vs. profitability, product vs. location, cost vs. delivery mode
 
