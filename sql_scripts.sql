@@ -9,8 +9,7 @@ FROM
 GROUP BY 
     Product_Category
 ORDER BY 
-    Total_Sales DESC
-LIMIT 1;
+    Total_Sales DESC;
 
 -- Q2: What are the Top 3 and Bottom 3 regions in terms of sales?
 -- Top 3 regions by sales
@@ -22,8 +21,7 @@ FROM
 GROUP BY 
     Region
 ORDER BY 
-    Total_Sales DESC
-LIMIT 3;
+    Total_Sales DESC;
 
 -- Bottom 3 regions by sales
 SELECT 
@@ -34,8 +32,7 @@ FROM
 GROUP BY 
     Region
 ORDER BY 
-    Total_Sales ASC
-LIMIT 3;
+    Total_Sales ASC;
 
 -- Q3: What were the total sales of appliances in Ontario?
 SELECT 
@@ -55,8 +52,7 @@ FROM
 GROUP BY 
     Customer_Name
 ORDER BY 
-    Total_Sales ASC
-LIMIT 10;
+    Total_Sales ASC;
 
 -- Q5: Which shipping method incurred the most shipping cost?
 SELECT 
@@ -67,8 +63,7 @@ FROM
 GROUP BY 
     Ship_Mode
 ORDER BY 
-    Total_Shipping_Cost DESC
-LIMIT 1;
+    Total_Shipping_Cost DESC;
 
 
 -- Case Scenario II
@@ -83,8 +78,7 @@ FROM
 GROUP BY 
     Customer_Name, Product_Category
 ORDER BY 
-    Total_Sales DESC
-LIMIT 10;
+    Total_Sales DESC;
 
 -- Q7: Which small business customer had the highest sales?
 SELECT 
@@ -97,8 +91,7 @@ WHERE
 GROUP BY 
     Customer_Name
 ORDER BY 
-    Total_Sales DESC
-LIMIT 1;
+    Total_Sales DESC;
 
 -- Q8: Which Corporate customer placed the most orders in 2009–2012?
 SELECT 
@@ -112,8 +105,7 @@ WHERE
 GROUP BY 
     Customer_Name
 ORDER BY 
-    Order_Count DESC
-LIMIT 1;
+    Order_Count DESC;
 
 -- Q9: Which consumer customer was the most profitable?
 SELECT 
@@ -126,8 +118,7 @@ WHERE
 GROUP BY 
     Customer_Name
 ORDER BY 
-    Total_Profit DESC
-LIMIT 1;
+    Total_Profit DESC;
 
 -- Q10: Which customer returned items, and what segment do they belong to?
 SELECT DISTINCT 
