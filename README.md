@@ -86,8 +86,7 @@ KMS-Inventory-Analysis/
 ## ✅ Author
 
 **Ephraim Elakhe**  
-Data Analyst  
-Advocate for data-driven solutions in open access and SME ecosystems  
+Data Analyst and advocate for data-driven solutions in open access and SME ecosystems  
 
 ---
 
